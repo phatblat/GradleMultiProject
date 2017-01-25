@@ -1,3 +1,10 @@
+# GradleMultiProject
+
+Testing a multi-project setup.
+
+```
+gradle -q showProjectDir
+```
 
 ## License
 
