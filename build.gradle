@@ -5,3 +5,11 @@ allprojects {
         }
     }
 }
+
+task removeBatchFile(type: Delete) { delete 'gradlew.bat' }
+
+wrapper {
+    gradleVersion = '4.9'
+    distributionType = 'ALL'
+    finalizedBy removeBatchFile
+}
