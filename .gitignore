@@ -1,9 +1,13 @@
-.DS_Store
 *.xccheckout
 *.xcscmblueprint
-xcuserdata
+.DS_Store
+.classpath
+.gradle/
+.project
+.rubygems/
+.settings/
+.vscode/
 Carthage/
 Pods/
-.rubygems/
 bin/
-.gradle/
+xcuserdata
